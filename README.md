@@ -12,11 +12,11 @@ Jupyter notebook facilitated for extracting GIS data and generating the input fi
 Optional datasets that can be used for the extraction are: 
 
 * Custom Demand - A layer that can be created by the users themselves. For the first round of GEP the methodlogy described here has been used.
-* Substations
-* Transformers
+* Substations (if any or available)
+* Transformers (if any or available)
 * Mini/Small hydro
-* Existing and planned HV-lines
-* Existing and planned MV-lines
+* Existing and planned HV-lines (if any or available)
+* Existing and planned MV-lines (if any or available)
 * Road network
 
 The output is in the form of a CSV file that can be directly put into OnSSET.
