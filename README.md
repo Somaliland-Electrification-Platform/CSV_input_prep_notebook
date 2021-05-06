@@ -1,4 +1,4 @@
-# OnSSET GIS extraction
+# OnSSET GIS extraction for Somaliland
 Jupyter notebook facilitated for extracting GIS data and generating the input file necessary for OnSSET. The notebook can be utilized when generating an OnSSET input file from scratch or when the user wants to change one specific dataset in an existing OnSSET-input file. The mandatory datasets are \n:
 * Administrative boundaries
 * Land Cover
@@ -46,22 +46,22 @@ Once installed, open anaconda prompt and move to your local "OnSSET-GIS-Extracti
 > cd ..\OnSSET-GIS-Extraction
 ```
 
-In order to be able to run the tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "full_project.yml" contains all of these and can be easily set up by creating a new virtual environment using:
+In order to be able to run the tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "somaliland_env.yml" contains all of these and can be easily set up by creating a new virtual environment using:
 
 ```
-conda env create --name OnSSET_extraction --file full_project.yml
+conda env create --name somaliland_env --file somaliland_env.yml
 ```
 
 This might take some time. When complete, activate the virtual environment using:
 
 ```
-conda activate OnSSET_extraction
+conda activate somaliland_env
 ```
 
 With the environment activated, you can now move to the extraction directory and start a "jupyter notebook" session by simply typing:
 
 ```
-..\OnSSET-GIS-Extraction> jupyter notebook 
+..\OnSSET-GIS-Extraction_notebook> jupyter notebook 
 ```
 ## Changelog
 **21-Februray-2021**: Original code base published
