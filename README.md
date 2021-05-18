@@ -14,7 +14,10 @@ Optional datasets that can be used for the extraction are:
 * Custom Demand - A layer that can be created by the users themselves. For the first round of GEP the methodlogy described here has been used.
 * Substations (if any or available)
 * Transformers (if any or available)
-* Mini/Small hydro
+* Existing ESPs
+* Population raster layer
+* Building raster & vector polygon layer
+* Mini/Small hydro potential
 * Existing and planned HV-lines (if any or available)
 * Existing and planned MV-lines (if any or available)
 * Road network
@@ -39,23 +42,23 @@ After installing Anaconda you can download the repository directly or clone it t
 
 ```
 > conda install git
-> git clone https://github.com/babakkhavari/OnSSET_GIS_Extraction_notebook.git
+> git clone https://github.com/Somaliland-Electrification-Platform/CSV_input_prep_notebook
 ```
 Once installed, open anaconda prompt and move to your local "OnSSET-GIS-Extraction" directory using:
 ```
-> cd ..\OnSSET-GIS-Extraction
+> cd ..\CSV_input_prep_notebook
 ```
 
-In order to be able to run the tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "somaliland_env.yml" contains all of these and can be easily set up by creating a new virtual environment using:
+In order to be able to run the tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "csv_file_preparation_for_Somaliland.yml" contains all of these and can be easily set up by creating a new virtual environment using:
 
 ```
-conda env create --name somaliland_env --file somaliland_env.yml
+conda env create --name csv_file_preparation_for_Somaliland --file csv_file_preparation_for_Somaliland.yml
 ```
 
 This might take some time. When complete, activate the virtual environment using:
 
 ```
-conda activate somaliland_env
+conda activate csv_file_preparation_for_Somaliland
 ```
 
 With the environment activated, you can now move to the extraction directory and start a "jupyter notebook" session by simply typing:
