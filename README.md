@@ -52,7 +52,8 @@ Once installed, open anaconda prompt and move to your local "OnSSET-GIS-Extracti
 In order to be able to run the tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "csv_file_preparation_for_Somaliland.yml" contains all of these and can be easily set up by creating a new virtual environment using:
 
 ```
-conda env create --name csv_file_preparation_for_Somaliland --file csv_file_preparation_for_Somaliland.yml
+conda env create --name csv_extraction_somaliland_env --file csv_extraction_somaliland_env.yml   
+
 ```
 
 This might take some time. When complete, activate the virtual environment using:
